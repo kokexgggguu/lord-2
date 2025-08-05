@@ -1,0 +1,18 @@
+2025-08-05 12:29:49,295 - __main__ - INFO - Starting Discord Bot Manager...
+2025-08-05 12:29:49,296 - __main__ - INFO - Discord bot thread started
+2025-08-05 12:29:49,297 - __main__ - INFO - Starting Flask web interface on port 5000...
+2025-08-05 12:29:49,645 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-05 12:29:49,651 - discord.client - INFO - logging in using static token
+2025-08-05 12:29:49,843 - discord.client - INFO - logging in using static token
+2025-08-05 12:29:49,851 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.119.98:5000
+2025-08-05 12:29:49,851 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 12:29:49,918 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fd577abac10>
+2025-08-05 12:29:50,335 - werkzeug - INFO - 10.82.0.4 - - [05/Aug/2025 12:29:50] "GET / HTTP/1.1" 200 -
+2025-08-05 12:29:50,761 - werkzeug - INFO - 10.82.1.27 - - [05/Aug/2025 12:29:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:29:50,791 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 618c7c3757c9f80b843616e786e09582).
+2025-08-05 12:29:51,000 - werkzeug - INFO - 10.82.1.27 - - [05/Aug/2025 12:29:51] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-08-05 12:29:51,833 - werkzeug - INFO - 10.82.0.4 - - [05/Aug/2025 12:29:51] "GET /api/activity?days=7 HTTP/1.1" 200 -
